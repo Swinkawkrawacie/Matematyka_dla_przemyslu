@@ -3,7 +3,11 @@
 *.html
 *.css
 gaussiann_plume_model/Tests_PICK.ipynb
-gaussiann_plume_model/2D
 gaussiann_plume_model/speed
 gaussiann_plume_model/sun
 gaussiann_plume_model/clouds
+gaussiann_plume_model/2D
+gaussiann_plume_model/2D_p
+gaussiann_plume_model/plots
+gaussiann_plume_model/3dscatter_files
+surface*.csv
