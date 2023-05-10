@@ -17,7 +17,7 @@ ui <- fluidPage(
 )
 server <- function(input, output){
   output$wykres1 <- renderImage({
-    filename <- normalizePath(file.path('./plots/2D_time',
+    filename <- normalizePath(file.path('./model_plots/2D_time_changes',
                                         paste('day', input$n, '_plot.jpg')))
     list(src = filename,
          alt = paste("Image number", input$n),
