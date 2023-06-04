@@ -58,9 +58,9 @@ Widok na przeciwko źródła   |  Widok z boku źródła
 
 Następnie podjęto próbę zaprezentowania uproszczonego zachowania modelu w czasie z uwzględnieniem kierunku wiatru.
 
-Po $10$ godzinach   |  Po tygodniu    
+Po dniu   |  Po tygodniu    
 :-------------------------:|:-------------------------:
-![10h](/gaussiann_plume_model/model_plots/2D_time_changes/time_10_avg_plot.jpg) | ![Tydzień](/gaussiann_plume_model/model_plots/2D_time_changes/day7_plot.jpg)
+![24h](/gaussiann_plume_model/model_plots/2D_time_changes/week/day1_plot.jpg) | ![Tydzień](/gaussiann_plume_model/model_plots/2D_time_changes/week/day7_plot.jpg)
 
 Linie na wykresie są wynikiem błędu popełnianego w przybliżaniu wartości współrzędnych podczas obracania wyników zgodnie z kierunkiem wiatru. Nie przeszkadzają one jednak w dostrzeżeniu tworzących się w czasie kształtów. Przesunięcie maksymalnych wartości stężeń z punktu, w którym znajduje się źródło wynika z tego, że analizowano wyniki na wysokości $z$ poniżej źródła.
 
