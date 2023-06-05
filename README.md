@@ -42,6 +42,8 @@ Predykcja na dane testowe z usuniętymi trendami i sezonowością               
 
 Zauważono, że predykcja na lata związane z pandemią jest sensowna jednak wydaje się przesunieta w czasie, jeśli chodzi o występowanie wartości maksymalnych.
 
+![Kod](time_series/)
+
 W kolejnym kroku zajęto sie rozwinięciem zawartej w poprzedniej części analizy wpływu czynników pogodowych na stężenie zanieczyszczeń. Największe (co do modułu) korelacje zaobserwowano dla prędkości wiatru i temperatury. Ma to związek z faktem, że przy silnym wietrze zanieczyszczenia będą się bardziej rozprzestrzeniać i tym samym ograniczone zostanie tworzenie się skupisk o odnotowanych dużych wartościach stężeń.
 
 Stężenie w zależności od prędkości wiatru    |  Stężenie w zależności od temperatury       
@@ -64,15 +66,21 @@ Po dniu   |  Po tygodniu
 
 Linie na wykresie są wynikiem błędu popełnianego w przybliżaniu wartości współrzędnych podczas obracania wyników zgodnie z kierunkiem wiatru. Nie przeszkadzają one jednak w dostrzeżeniu tworzących się w czasie kształtów. Przesunięcie maksymalnych wartości stężeń z punktu, w którym znajduje się źródło wynika z tego, że analizowano wyniki na wysokości $z$ poniżej źródła.
 
+![Kod](gaussiann_plume_model/)
+
 * **![Prezentacja 6.](presentations/p6.pdf)** - 24.05.2023r.
 * **![Prezentacja 7.](presentations/p7.pdf)** - 07.06.2023r.
   Podsumowanie.
  
 ## Dane:
-1. ![Dane dotyczące zamnieczyszczeń](https://powietrze.gios.gov.pl/pjp/archives)
+1. ![Dane dotyczące zanieczyszczeń](https://powietrze.gios.gov.pl/pjp/archives)
 2. ![Dane pogodowe cz.1.](https://www.ecad.eu/dailydata/predefinedseries.php)
 3. ![Dane pogodowe cz.2.](https://open-meteo.com/en/docs/historical-weather-api)
 
 ## Bibliografia:
-1. 
-
+1. ![Gaussian_Plume_Model](https://faculty.washington.edu/markbenj/CEE357/CEE%20357%20air%20dispersion%20models.pdf)
+2. 
+3. 
+4. ![Obracanie osi o zadany kąt - wzory](https://en.wikipedia.org/wiki/Rotation_of_axes)
+5. 
+Ponadto wykorzystano informacje i metody wprowadzone na innych kursach przeprowadzonych w ramach programu studiów.
