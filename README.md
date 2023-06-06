@@ -70,7 +70,7 @@ Linie na wykresie są wynikiem błędu popełnianego w przybliżaniu wartości w
 
 * **![Prezentacja 6.](presentations/p6.pdf)** - 24.05.2023r.
 Przedstwiono możliwość modelowania i predykowania zanieczyszczenia powietrza z wykorzystaniem machine learningu na pryzkładzie modeli Ranodm Forest i OLS.
-![OLS](/machine_learning/ols.png) | ![RandomForest](/machine_learning/rf.png)
+![OLS](/machine_learning/ols.png)  ![RandomForest](/machine_learning/rf.png)
 
 * **![Prezentacja 7.](presentations/p7.pdf)** - 07.06.2023r.
   Podsumowanie.
