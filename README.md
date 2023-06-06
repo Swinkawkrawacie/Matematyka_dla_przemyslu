@@ -86,4 +86,5 @@ Przedstwiono możliwość modelowania i predykowania zanieczyszczenia powietrza 
 3. 
 4. ![Obracanie osi o zadany kąt - wzory](https://en.wikipedia.org/wiki/Rotation_of_axes)
 5. 
-Ponadto wykorzystano informacje i metody wprowadzone na innych kursach przeprowadzonych w ramach programu studiów.
+
+Ponadto, na końcowych slajdach poszczególnych prezentacji zawarto dodatkowe źródła, z których pozyskiwano informacje na temat smogu. Realizując projekt, wielokrotnie wykorzystywano także wiedzę i metody zaprezentowane na innych kursach przeprowadzonych w ramach programu studiów. 
