@@ -76,7 +76,7 @@ Przedstwiono możliwość modelowania i predykowania zanieczyszczenia powietrza 
   Podsumowanie.
  
 ## Dane:
-1. ![Dane dotyczące zanieczyszczeń](https://powietrze.gios.gov.pl/pjp/archives)ś
+1. ![Dane dotyczące zanieczyszczeń](https://powietrze.gios.gov.pl/pjp/archives)
 2. ![Dane pogodowe cz.1.](https://www.ecad.eu/dailydata/predefinedseries.php)
 3. ![Dane pogodowe cz.2.](https://open-meteo.com/en/docs/historical-weather-api)
 
