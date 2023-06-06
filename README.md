@@ -13,7 +13,7 @@ W trakcie realizacji projektu próbowano pokazać, że smog jest faktycznym zagr
 * **![Prezentacja 1.](presentations/p1.pdf)** - 08.03.2023r.
   Opierała się na wstępnym przedstawieniu tematu oraz planów z nim związanych. 
 * **![Prezentacja 2.](presentations/p2.pdf)** - 15.03.2023r.
-  W tej częsci zajęto się stworzeniem bazy danych łączącej potrzebne dane o stężeniach zanieczyszczeń PM $10$ i PM $2.5$ w latach $2015-2019.$ Zebrane informacje dotyczyły kilku polskich miast:  Gdańska, Łodzi, Nowej Rudy, Krakowa, Warszawy i Wrocławia. Wyznaczono podstawowe statystyki oraz częstości przekroczenia norm.
+  W tej częsci zajęto się stworzeniem bazy danych łączącej potrzebne dane o stężeniach zanieczyszczeń PM $10$ i&nbsp;PM $2.5$ w latach $2015-2019.$ Zebrane informacje dotyczyły kilku polskich miast:  Gdańska, Łodzi, Nowej Rudy, Krakowa, Warszawy i&nbsp;Wrocławia. Wyznaczono podstawowe statystyki oraz częstości przekroczenia norm.
  
 BAZA DANYCH             |  PRZEKROCZENIA           
 :-------------------------:|:-------------------------:
@@ -52,7 +52,7 @@ Stężenie w zależności od prędkości wiatru    |  Stężenie w zależności 
 
 Na zakończenie przedstawiono dalszy plan działania, prezentując podstawowe idee machine learningu i ich możliwe wykorzystanie.
 * **![Prezentacja 5.](presentations/p5.pdf)** - 10.05.2023r.
-  Przedstawiono Gaussian Plume Model, opisujący rozprzestrzenianie się zanieczyszczeń z punktowego źródła emitującego zanieczyszczenie przez godzinę. Przeanalizowano jak model uwzględnia wpływ czynników pogodowych oraz jego zachowanie przy zmianie odległości od źródła. Wygenerowano przykładowy model w 3D dla pokazania charakterystycznego kształu.
+  Przedstawiono Gaussian Plume Model, opisujący rozprzestrzenianie się zanieczyszczeń z punktowego źródła emitującego zanieczyszczenie przez godzinę. Przeanalizowano jak model uwzględnia wpływ czynników pogodowych oraz jego zachowanie przy zmianie odległości od źródła. Wygenerowano przykładowy model w 3D dla pokazania charakterystycznego kształtu.
   
 Widok na przeciwko źródła   |  Widok z boku źródła       
 :-------------------------:|:-------------------------:
@@ -64,12 +64,13 @@ Po dniu   |  Po tygodniu
 :-------------------------:|:-------------------------:
 ![24h](/gaussiann_plume_model/model_plots/2D_time_changes/week/day1_plot.jpg) | ![Tydzień](/gaussiann_plume_model/model_plots/2D_time_changes/week/day7_plot.jpg)
 
-Linie na wykresie są wynikiem błędu popełnianego w przybliżaniu wartości współrzędnych podczas obracania wyników zgodnie z kierunkiem wiatru. Nie przeszkadzają one jednak w dostrzeżeniu tworzących się w czasie kształtów. Przesunięcie maksymalnych wartości stężeń z punktu, w którym znajduje się źródło wynika z tego, że analizowano wyniki na wysokości $z$ poniżej źródła.
+Linie na wykresie są wynikiem błędu popełnianego w przybliżaniu wartości współrzędnych podczas obracania wyników zgodnie z kierunkiem wiatru. Nie przeszkadzają one jednak w&nbsp;dostrzeżeniu tworzących się w czasie kształtów. Przesunięcie maksymalnych wartości stężeń z punktu, w&nbsp;którym znajduje się źródło wynika z tego, że analizowano wyniki na wysokości $z$ poniżej źródła.
 
 ![Kod](gaussiann_plume_model/)
 
 * **![Prezentacja 6.](presentations/p6.pdf)** - 24.05.2023r.
-Przedstwiono możliwość modelowania i predykowania zanieczyszczenia powietrza z wykorzystaniem machine learningu na pryzkładzie modeli Ranodm Forest i OLS.
+Przedstawiono możliwość modelowania i predykowania zanieczyszczenia powietrza z wykorzystaniem machine learningu na przykładzie modeli Ranodm Forest i OLS.
+
 ![OLS](/machine_learning/ols.png)  ![RandomForest](/machine_learning/rf.png)
 
 * **![Prezentacja 7.](presentations/p7.pdf)** - 07.06.2023r.
@@ -81,10 +82,8 @@ Przedstwiono możliwość modelowania i predykowania zanieczyszczenia powietrza 
 3. ![Dane pogodowe cz.2.](https://open-meteo.com/en/docs/historical-weather-api)
 
 ## Bibliografia:
-1. ![Gaussian_Plume_Model](https://faculty.washington.edu/markbenj/CEE357/CEE%20357%20air%20dispersion%20models.pdf)
-2. 
-3. 
-4. ![Obracanie osi o zadany kąt - wzory](https://en.wikipedia.org/wiki/Rotation_of_axes)
-5. 
+1. ![Gaussian Plume Model](https://faculty.washington.edu/markbenj/CEE357/CEE%20357%20air%20dispersion%20models.pdf)
+2. ![Stability table](https://www.researchgate.net/publication/271071860_The_impact_of_crude_solid_waste_disposal_on_the_Air-shed_conditions_ofMwakirunge-KisauniMombasa_County_Kenya)
+3. ![Obracanie osi o zadany kąt - wzory](https://en.wikipedia.org/wiki/Rotation_of_axes)
 
 Ponadto, na końcowych slajdach poszczególnych prezentacji zawarto dodatkowe źródła, z których pozyskiwano informacje na temat smogu. Realizując projekt, wielokrotnie wykorzystywano także wiedzę i metody zaprezentowane na innych kursach przeprowadzonych w ramach programu studiów. 
