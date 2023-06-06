@@ -73,7 +73,7 @@ Przedstawiono możliwość modelowania i predykowania zanieczyszczenia powietrza
 
 ![OLS](/machine_learning/ols.png)  ![RandomForest](/machine_learning/rf.png)
 
-* **![Prezentacja 7.](presentations/p7.pdf)** - 07.06.2023r.
+* **![Prezentacja 7.](presentations/Smog_jest_z%C5%82y.pptx)** - 07.06.2023r.
   Podsumowanie.
  
 ## Dane:
